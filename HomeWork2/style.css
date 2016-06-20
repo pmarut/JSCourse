@@ -1,0 +1,28 @@
+.body {
+    width: 500px;
+    background: #bdbdbd;
+    align-content: center;
+    margin: auto;
+    padding: 20px;
+}
+.deleteLink {
+    margin-right: 9px;
+    padding: 0 3px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+.error {
+    border: 1px solid red;
+}
+#taskName {
+    width: 50%;
+}
+#taskList {
+    list-style-type:none;
+}
+#errorLabel {
+    color: red;
+    display: none;
+}
